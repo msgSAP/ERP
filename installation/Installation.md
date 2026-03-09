@@ -85,7 +85,7 @@ With this, you've completed the third preparation step.
 [^ Top of page](#)  
 Our final step is to configure the Business Application Studio (BAS) which is the development environment for the FrontEnd. Here, our browser applications will be implemented later on.  
 
-To get started, open the [Business Application Studio](https://uni-passau-sb-tdd.eu10cf.applicationstudio.cloud.sap/index.html). If asked, select *ahg2zqgbd.accounts.ondemand.com* for signing in. Once the BAS has opened, you'll have to click *Create Dev Space*: Select the name *Fiori* and the application type *SAP Fiori* and click on *Create Dev Space*. Your Dev Space will automatically be started - this may take some minutes. Meanwhile you can store a browser bookmark for the BAS. Once it's *running*, open the Dev Space.
+To get started, open the [Business Application Studio](https://uni-passau-sbx-tdd.eu10cf.applicationstudio.cloud.sap/index.html). If asked, select *ahg2zqgbd.accounts.ondemand.com* for signing in. Once the BAS has opened, you'll have to click *Create Dev Space*: Select the name *Fiori* and the application type *SAP Fiori* and click on *Create Dev Space*. Your Dev Space will automatically be started - this may take some minutes. Meanwhile you can store a browser bookmark for the BAS. Once it's *running*, open the Dev Space.
 
 
 ### 5. Connecting BAS with the ABAP Environment 
@@ -101,3 +101,4 @@ Basically, everything is ready now - congratulations!
 
 ## Further Links
 - [Eclipse Keyboard Shortcuts](Shortcuts.md)
+
