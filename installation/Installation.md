@@ -44,7 +44,9 @@ You will be asked for a workspace and can store the presetting as default.
 
 Now we'll install the ABAP Development Tools (ADT): Click *Help* > *Install new Software...* in Eclipse and enter `https://tools.hana.ondemand.com/latest` into the field *Work with*. Click *Add...* and store the plugin URL under the name *ADT*. After adding, the available tools will be loaded. Active the checkbox for *ABAP Development Tools* and click on *Next >*. On the following page again *Next >*, then accept the license terms and click *Finish*. You'll see the installation progress in the lower right corner of Eclipse. In some cases you have to explicitly state that you're trusting the signers SAP and Eclipse.  
 
-After the installation Eclipse has to be restarted. Close the welcome tab and open the ABAP perspective by clicking *Window* > *Perspective* > *Open Perspective* > *Other* > *ABAP*.  
+After the installation Eclipse has to be restarted.
+When a popup for "ADT Link Handler" is shown confirm with yes.
+Close the welcome tab and open the ABAP perspective by clicking *Window* > *Perspective* > *Open Perspective* > *Other* > *ABAP*.  
 
 
 ### 3. Add the development system as ABAP Cloud Project to Eclipse
@@ -52,7 +54,7 @@ After the installation Eclipse has to be restarted. Close the welcome tab and op
 [^ Top of page](#)  
 >We're using a development system hosted by SAP in "the Cloud", i.e. SAP Business Technology Platform (SAP BTP, ABAP Environment).  
 >Our system version is _ABAP IN SAP CLOUD PLATFORM 2602 (HFC 5)_, the newest currently available release from February 2026.  
->**Note** Our ABAP system _UNP_ is configured to be only **available March 9th to April 10th weekdays from 8 to 18 o'clock**.  
+>**Note** Our ABAP system _UPS_ is configured to be only **available March 9th to April 10th weekdays from 8 to 18 o'clock**.  
 >**Also, it will be online Saturday and Sunday, from 8 to 18 o'clock.**  
 >**The system will shut down once the exam has concluded on April 10th.**  
  
@@ -66,7 +68,7 @@ You've successfully connected your development IDE with the ABAP Environment in 
 
 ![alt](files/Package_0.png)  
 
-On the *Next >* wizard page, assign the Name `ZRAPH_##_TRAVEL` where the `##` has to be replaced with your personal *initials*. This ensures that everybody has his own package and we don't interfere with each others - we'll use the `##` throughout the course! The superpackage will stay *ZLOCAL* and you should check the box to save this as favorite package for easier access before continuing with *Next >*.  
+On the *Next >* wizard page, assign the Name `ZRAPH_##_TRAVEL` where the `##` has to be replaced with your personal *initials*. This ensures that everybody has his own package and we don't interfere with each others - we'll use the `##` throughout the course! Enter*ZLOCAL* as superpackage and you should check the box to save this as favorite package for easier access before continuing with *Next >*.  
 
 >**Important!** In case your `##` two-digit initials are already used by another student: Please **choose another two-digit combination** like, e.g. `M2` instead of `MM` for Max Mustermann. **Three-digits combinations should NOT be used!** Due to development object name length restrictions, you'll run into problems otherwise.  
 
@@ -99,6 +101,7 @@ Basically, everything is ready now - congratulations!
 
 ## Further Links
 - [Eclipse Keyboard Shortcuts](Shortcuts.md)
+
 
 
 
