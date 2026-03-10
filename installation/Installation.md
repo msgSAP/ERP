@@ -78,6 +78,7 @@ On the second wizard screen you can leave everything as is and just continue wit
 ![alt](files/Package_2.png)  
 
 On the last wizard screen just press finish.
+![alt](files/Package_3.png)  
 
 With this, you've completed the third preparation step.
 
@@ -101,6 +102,7 @@ Basically, everything is ready now - congratulations!
 
 ## Further Links
 - [Eclipse Keyboard Shortcuts](Shortcuts.md)
+
 
 
 
