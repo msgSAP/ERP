@@ -62,7 +62,7 @@ Now we will add this system as ABAP Cloud Project in Eclipse. If you have alread
 Here you have to provide the ABAP Service Instance URL `https://12676eb1-e177-428a-a443-55bba6f2216c.abap-web.eu10.hana.ondemand.com` and continue with *Next >*. Now you'll have to logon to your SAP BTP Account by clicking *Open Logon Page in Browser*. Here you have to select `ahg2zqgbd.accounts.ondemand.com` and provide the mail and passwort you chose in the first step. Back in Eclipse use *EN* as logon language when asked and click *Finish*.
 
 #### Creating a development package
-You've successfully connected your development IDE with the ABAP Environment in the Business Technology Platform. Next, we will create a package and associated transport request. This package will be used to store all your development objects which we'll create during this course. To do so, right click on your new ABAP Project *UNP* and select *New* > *ABAP Package*.
+You've successfully connected your development IDE with the ABAP Environment in the Business Technology Platform. Next, we will create a package and associated transport request. This package will be used to store all your development objects which we'll create during this course. To do so, right click on your new ABAP Project *UPS* and select *New* > *ABAP Package*.
 
 ![alt](files/Package_0.png)  
 
@@ -75,9 +75,7 @@ On the *Next >* wizard page, assign the Name `ZRAPH_##_TRAVEL` where the `##` ha
 On the second wizard screen you can leave everything as is and just continue with *Next >*.  
 ![alt](files/Package_2.png)  
 
-Finally, select the radio button *Create a new request* where you should provide some meaningful *Request Description* and can complete the wizard by pressing *Finish*. This transport request is required as you would normally e.g. transport such packaged changes from a development to a test system. In our case this won't happen but is necessary nontheless.
-
-![alt](files/Package_3.png)
+On the last wizard screen just press finish.
 
 With this, you've completed the third preparation step.
 
@@ -101,5 +99,6 @@ Basically, everything is ready now - congratulations!
 
 ## Further Links
 - [Eclipse Keyboard Shortcuts](Shortcuts.md)
+
 
 
